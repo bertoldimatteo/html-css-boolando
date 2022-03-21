@@ -20,14 +20,39 @@
     clear: both;
 }
 
-/* debug */
+.row {
+    margin-bottom: 50px;
+}
 
 .col {
     float: left;
-    width: calc( 100% / 3 - 8px);
-    margin: 0 4px;
+    width: calc( 100% / 3 - 16px);
+    margin: 0 8px;
 }
+
+/* body */
 
 .col img {
     width: 100%;
+}
+
+.description {
+    margin: 5px 0;
+}
+
+.item-brand {
+    text-transform: capitalize;
+}
+
+.item-descr {
+    text-transform: uppercase;
+}
+
+.new-price {
+    color: red;
+    font-weight: bolder;
+}
+
+.old-price {
+    text-decoration: line-through;
 }
