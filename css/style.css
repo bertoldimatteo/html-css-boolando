@@ -30,6 +30,16 @@
     margin: 0 8px;
 }
 
+/* positions */
+
+.product {
+    position: relative;
+}
+
+.product div {
+    position: absolute;
+}
+
 /* body */
 
 .col img {
@@ -55,4 +65,29 @@
 
 .old-price {
     text-decoration: line-through;
+}
+
+.heart {
+    background-color: #fff;
+    top: 30px;
+    right: 0;
+    padding: 10px;
+}
+
+.banner  {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 30px;
+    padding: 4px 8px;
+}
+
+.discount-perc {
+    background-color: red;
+    left: 0;
+}
+
+.sustainability {
+    background-color: green;
+    left: 50px;
 }
