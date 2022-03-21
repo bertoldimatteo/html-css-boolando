@@ -40,9 +40,23 @@
     position: absolute;
 }
 
+/* hover */
+
+.product .img2 {
+    display: none;
+}
+
+.product:hover .img1 {
+    display: none;
+}
+
+.product:hover .img2 {
+    display: block;
+}
+
 /* body */
 
-.col img {
+.col .img1, .col .img2 {
     width: 100%;
 }
 
